@@ -1,0 +1,123 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #071952;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #97feed;
+    position: sticky;
+    top: 0;
+}
+.choose{
+    text-align: center;
+    color: #071952;
+}
+.intro {
+    font-size: 16px;
+    text-align: center;
+}    
+.explain-section {
+    display: block;
+    border:2px solid #071952;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 380px;
+    align-items: center;
+}
+.formula {
+    text-align: center;
+}
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #071952;
+}
+input {
+    padding: 10px;
+    border: 2px solid #071952;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-color: #35a29f;
+    background-color: rgb(226, 226, 226);
+}
+.pilih{
+    overflow: hidden;
+    position: sticky;
+    top: 40px; 
+}
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    width: bold;
+    text-align: center;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    color: #071952;
+    float: left;
+    margin: 2px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+button:active{
+    transform: translateY(5px);
+    background-color: rgb(13, 197, 59);
+}
+.tabcontent {
+    display:none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.calculate {
+    background-color: #071952;
+    color: #97feed;
+}
+.reset {
+    background-color: rgb(255, 196, 0);
+}
+.result {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    color:#071952;
+}
+footer {
+    background-color: #071952;  
+    text-align: center;
+    color: #97feed;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;  
+}
+.btn {
+    margin-bottom: 100px;
+}
